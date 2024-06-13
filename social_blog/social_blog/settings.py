@@ -124,6 +124,10 @@ STATICFILES_DIRS = [
   BASE_DIR / "static"
 ]
 
+LOGIN_REDIRECT_URL = 'test'
+LOGOUT_REDIRECT_URL = 'thanks'
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
